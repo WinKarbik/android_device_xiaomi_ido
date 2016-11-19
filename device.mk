@@ -113,18 +113,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8916 \
     liboverlay
 
-<<<<<<< HEAD
-=======
 # Doze mode
 PRODUCT_PACKAGES += \
     XiaomiDoze
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprint.msm8916 \
-    fingerprintd
-
->>>>>>> 9fc2859... ido: Add XiaomiDoze package
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
