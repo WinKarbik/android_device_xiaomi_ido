@@ -321,7 +321,6 @@ on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
     start config_bluetooth
     start wcnss-service
-    start config_bt_addr
 
 service irsc_util /system/bin/irsc_util "/etc/sec_config"
     class main
