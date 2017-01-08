@@ -126,8 +126,8 @@ PRODUCT_PACKAGES += \
     liboverlay
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # FM
 PRODUCT_PACKAGES += \

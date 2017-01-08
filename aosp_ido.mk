@@ -1,6 +1,7 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
 #               2017 The LineageOS Project
+#               2017 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,10 +18,10 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := lineage_ido
+PRODUCT_NAME := aosp_ido
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
