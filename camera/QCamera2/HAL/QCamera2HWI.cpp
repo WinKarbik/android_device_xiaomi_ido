@@ -5864,7 +5864,8 @@ int32_t QCamera2HardwareInterface::processFaceDetectionResult(cam_face_detection
     cbArg.cb_type = QCAMERA_DATA_CALLBACK;
     if(fd_type == QCAMERA_FD_PREVIEW){
         cbArg.msg_type = CAMERA_MSG_PREVIEW_METADATA;
-    }else if(fd_type == QCAMERA_FD_SNAPSHOT){
+    }
+    else if(fd_type == QCAMERA_FD_SNAPSHOT){
         cbArg.msg_type = CAMERA_MSG_META_DATA;
     }
     cbArg.data = faceResultBuffer;
