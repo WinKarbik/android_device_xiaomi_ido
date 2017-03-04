@@ -100,6 +100,7 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
     libboringssl-compat \
+    libshim_camera \
     Snap
 
 # DataServices
