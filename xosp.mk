@@ -22,8 +22,13 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 $(call inherit-product, vendor/xosp/config/xosp.mk)
 
-PRODUCT_NAME := xosp_ido
 BOARD_VENDOR := Xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_DEVICE := ido
+PRODUCT_NAME := xosp_ido
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Redmi 3
+TARGET_VENDOR := Xiaomi
 IS_ARM64 := TRUE
 ROOT_METHOD := supersu
 
