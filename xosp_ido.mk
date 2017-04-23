@@ -18,10 +18,13 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common XOSP stuff.
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
-PRODUCT_NAME := aosp_ido
+PRODUCT_NAME := xosp_ido
 BOARD_VENDOR := Xiaomi
+IS_ARM64 := TRUE
+ROOT_METHOD := supersu
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
