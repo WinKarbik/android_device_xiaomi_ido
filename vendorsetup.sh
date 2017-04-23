@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_ido-eng
-add_lunch_combo aosp_ido-user
-add_lunch_combo aosp_ido-userdebug
+add_lunch_combo xosp_ido-eng
+add_lunch_combo xosp_ido-user
+add_lunch_combo xosp_ido-userdebug
